@@ -1,0 +1,1 @@
+draw_sprite_ext(s_dust,image_index,x,y,image_xscale,image_yscale,0,col,1);

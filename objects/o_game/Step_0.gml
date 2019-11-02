@@ -1,0 +1,1 @@
+cam_move(window_get_x(),window_get_y(),1);

@@ -1,0 +1,41 @@
+!!! Font fnt_window_frame_test uses a font (Ubuntu Condensed SemiItalic) not installed on this system - Font has NOT been regenerated
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: window_frame.gml
+Converted description /// @description  ()
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (): Should be called once per frame.
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (): Returns whether the frame is currently on.
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (visible): Turns the frame on/off./// @param visible
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (): Returns an array of x, y, width, height
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (full): /// @param full
+
+Converting GML script: window_frame.gml
+Converted description /// @description  ():
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (index): Hooks the specified command /// @param index
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (index):/// @param index
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (index, param = 0):/// @param index
+/// @param  param = 0
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (command): Returns whether the given command is currently available./// @param command
+
+Converting GML script: window_frame.gml
+Converted description /// @description  (command, status:bool): Enables/disables the command. Returns -1 if not possible./// @param command
+/// @param  status:bool
+
+Game speed set to 30

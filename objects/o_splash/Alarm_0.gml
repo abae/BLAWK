@@ -1,0 +1,1 @@
+transition("fade",TRANS_MODE.NEXT);
