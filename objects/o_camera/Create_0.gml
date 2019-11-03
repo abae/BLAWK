@@ -1,3 +1,10 @@
+//Setting display
+//window_command_hook(window_command_close);
+window_command_set_active(window_command_resize, 0); // can disable window resizing
+window_command_set_active(window_command_maximize, 0); // or ability to maximize window
+window_command_set_active(window_command_minimize, 0); // or ability to minimize window
+window_set_cursor(cr_none);
+
 //Setting up camera
 target_view = 0;
 cam = view_camera[target_view];

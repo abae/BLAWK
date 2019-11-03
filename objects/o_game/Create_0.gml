@@ -1,12 +1,8 @@
-//var wall = instance_create_layer(DISP_WIDTH/2-32,DISP_HEIGHT-200,"Instances",o_wall);
-//with(wall) instid = 1;
-//var wall = instance_create_layer(DISP_WIDTH/2-32,DISP_HEIGHT-860,"Instances",o_wall);
-//with(wall) instid = 2;
-//var wall = instance_create_layer(DISP_WIDTH/2,DISP_HEIGHT/2,"Instances",o_wall);
-//with(wall) instid = 3;
-//var wall = instance_create_layer(DISP_WIDTH/2,DISP_HEIGHT/2,"Instances",o_wall);
-//with(wall) instid = 4;
+xmin = 0;
+xmax = 1920 - GUIWIDTH;
+ymin = 0;
+ymax = 1080 - GUIHEIGHT;
 
-instance_create_layer(o_camera.x+GUIWIDTH/2,o_camera.y+GUIHEIGHT/2,"Instances",o_bound);
+instance_create_layer(display_mouse_get_x()-GUIWIDTH/2,display_mouse_get_y()-GUIHEIGHT/2,"Instances",o_bound);
 
 instance_create_layer(DISP_WIDTH/2,DISP_HEIGHT/2,"Instances",o_window_check);
