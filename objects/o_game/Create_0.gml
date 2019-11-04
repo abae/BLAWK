@@ -1,3 +1,4 @@
+window_frame_set_visible(false);
 xmin = 0;
 xmax = 1920 - GUIWIDTH;
 ymin = 0;

@@ -1,4 +1,5 @@
-//window_command_set_active(window_command_move,true);
+window_command_set_active(window_command_move,true);
+window_frame_set_visible(true);
 window_frame_set_rect(clamp(display_mouse_get_x()-GUIWIDTH/2,xmin,xmax),clamp(display_mouse_get_y()-GUIHEIGHT/2,ymin,ymax),GUIWIDTH,GUIHEIGHT);
 //window_frame_set_rect(clamp(window_frame_get_x(),xmin,xmax),clamp(window_frame_get_y(),ymin,ymax),GUIWIDTH,GUIHEIGHT);
 

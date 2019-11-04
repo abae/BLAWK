@@ -354,7 +354,26 @@
             "init": "",
             "kind": 1,
             "order": [
-                
+                "321a7d29-e508-4e97-86dc-c844017e91cb",
+                "ee7461ea-8d5a-4211-a973-04b2c692cb98",
+                "080d01aa-a214-4a57-8613-509f7d02c442",
+                "85520b01-a98d-4ae9-8a6c-1af2af0c5c0d",
+                "6ba97800-9f92-4459-8e31-393060b810d0",
+                "836fcc3c-ee77-4fe2-96e1-e3263eef1c38",
+                "4ec91d77-7827-485e-8418-ed787e4cb6c2",
+                "d0ec8e31-1ffa-4219-898f-1fc3899a90e7",
+                "75273372-21b3-4791-971c-ccc789c0b6c7",
+                "2385f017-465f-4e99-b0f6-a0f79024218c",
+                "656a4f5e-6854-48a8-b05f-9b208d2992ea",
+                "e4ab84ba-3b06-4dec-819c-63f4eb5c0bee",
+                "bb34f21d-f9c0-464e-a373-5d9b535eaa24",
+                "2abae809-e1cd-4121-987f-64673f660301",
+                "226491da-a9f8-43b2-8876-7d9a9707793d",
+                "ab4fbda6-656a-4399-9e47-36039ce5117f",
+                "e83bfb15-21ce-470f-b239-bab89230cfb1",
+                "6b477ce4-dbfd-4396-979b-f46e5faad684",
+                "46b12d2a-c403-4c32-8a26-9cff221bfc11",
+                "e8ad973a-0464-4fc7-9731-f885414ff912"
             ],
             "origname": "extensions\\window_frame.dll",
             "uncompress": false
