@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "7883eb57-a188-4556-beb8-aa08b17ae11c",
+            "Value": {
+                "id": "447083ed-5113-4b8a-8684-3cc9bf407168",
+                "resourcePath": "extensions\\display_mouse_lock\\display_mouse_lock.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "7ad0dbc2-af24-4d9e-a8d2-62255a1a99bc",
             "Value": {
                 "id": "68f0063f-f767-401c-a7bd-aa026e19414f",

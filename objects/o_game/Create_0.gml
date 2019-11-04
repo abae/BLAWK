@@ -1,3 +1,11 @@
+click = 0;
+p_click = 0;
+pclick = 0;
+rclick = 0;
+frame_active = 0;
+mouse_xoff = 0;
+mouse_yoff = 0;
+
 window_frame_set_visible(false);
 xmin = 0;
 xmax = 1920 - GUIWIDTH;
