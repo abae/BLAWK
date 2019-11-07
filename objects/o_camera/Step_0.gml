@@ -40,19 +40,19 @@ yy = y;
 x = xTo;
 y = yTo;
 
-var cloud1spd = -16.5;
-var cloud2spd = -10.35;
+var cloud1spd = -26.5;
+var cloud2spd = -15.35;
 if (layer_exists("Sky")){
 	layer_x("Sky",x/3)
 	layer_y("Sky",y/3)
 }
 if (layer_exists("Cloud")){
 	layer_x("Cloud",(x+(current_time/1000)*cloud1spd)/2.7)
-	layer_y("Cloud",y/2.7+100)
+	layer_y("Cloud",y/2.7+50)
 }
 if (layer_exists("Cloud2")){
 	layer_x("Cloud2",(x+(current_time/1000)*cloud2spd)/2.85)
-	layer_y("Cloud2",y/2.85+100)
+	layer_y("Cloud2",y/2.85+20)
 }
 
 //show_debug_message(string(x)+"   "+string(y));

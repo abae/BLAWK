@@ -1,5 +1,4 @@
 draw_set_color(c_dkgray)
-ymin = 200;
 var loop = 10;
 if (ymin != 0) {
 	draw_line_width(-BIG,ymin-1+GUIHEIGHT,BIG,ymin-1+GUIHEIGHT,2);
