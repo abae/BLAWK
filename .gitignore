@@ -1,10 +1,5 @@
 /extensions/display_mouse_lock/
 /extensions/GMLive/
 /objects/obj_gmlive
-/datafiles/gc.dll
-/datafiles/regexp.ndll
-/datafiles/gmlive.html
-/datafiles/gmlive-server.exe
-/datafiles/gmlive-server.n
-/datafiles/neko.dll
-/datafiles/std.ndll
+/datafiles/GMLive
+/datafiles_yy/GMLive
