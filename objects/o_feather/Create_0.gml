@@ -6,5 +6,5 @@ var dir = random_range(0,360);
 var spd = random_range(.5,15);
 vx = lengthdir_x(spd,dir);
 vy = lengthdir_y(spd,dir);
-grav = .008;
+grav = random_range(.008,.021);
 life = 1;

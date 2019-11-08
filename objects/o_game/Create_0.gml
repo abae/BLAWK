@@ -1,5 +1,5 @@
 click = 0;
-p_click = 0;
+prev_click = 0;
 pclick = 0;
 rclick = 0;
 mouse_xoff = 0;

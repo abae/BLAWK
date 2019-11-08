@@ -1,6 +1,9 @@
+if (live_call()) return live_result;
+
 click = keyboard_check_direct(1);
-pclick = click and !p_click;
-rclick = !click and p_click;
+show_debug_message(string(current_time) + ":-:pclick: " + string(prev_click));
+pclick = click and !prev_click;
+rclick = !click and prev_click;
 global.pFrame	   = pclick and 
 						between(display_mouse_get_x(),window_get_x(),window_get_x()+GUIWIDTH) and 
 						between(display_mouse_get_y(),window_get_y()-31,window_get_y());
@@ -45,4 +48,4 @@ if (rclick){
 cam_move(window_frame_get_x(),window_frame_get_y(),1);
 xx = window_frame_get_x();
 yy = window_frame_get_y();
-p_click = click
+prev_click = click
