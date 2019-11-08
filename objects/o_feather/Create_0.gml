@@ -7,3 +7,4 @@ var spd = random_range(.5,15);
 vx = lengthdir_x(spd,dir);
 vy = lengthdir_y(spd,dir);
 grav = .008;
+life = 1;

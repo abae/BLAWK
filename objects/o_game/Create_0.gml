@@ -14,10 +14,10 @@ state = "nothing";
 
 window_frame_set_visible(true);
 window_command_set_active(window_command_move,false);
-xmin = 0;
-xmax = 1920 - GUIWIDTH;
-ymin = 0;
-ymax = 1080 - GUIHEIGHT;
+xmin = -BIG;
+xmax = 1920;
+ymin = -BIG;
+ymax = 1080;
 
 instance_create_layer(display_mouse_get_x()-GUIWIDTH/2,display_mouse_get_y()-GUIHEIGHT/2,"Instances",o_bound);
 
