@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+//if (live_call()) return live_result;
 
 if (spd > 200 and !recover){
 	if(position_meeting(x+40,y,o_wall) or position_meeting(x+40,y,o_bound)){

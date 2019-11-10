@@ -17,3 +17,10 @@ gml_pragma("global", "MACROS()");
 
 #macro APPLICATION_SURFACE_WIDTH surface_get_width(application_surface)
 #macro APPLICATION_SURFACE_HEIGHT surface_get_height(application_surface)
+
+enum dir {
+	right = 0,
+	up = 90,
+	left = 180,
+	down = 270
+}

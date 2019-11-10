@@ -1,5 +1,4 @@
-//if (global.iRight)	physics_apply_torque(torq);
-//if (global.iLeft)	physics_apply_torque(-torq);
+//if (live_call()) return live_result;
 
 spd = sqrt(sqr(phy_linear_velocity_x)+sqr(phy_linear_velocity_y));
 

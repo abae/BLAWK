@@ -1,3 +1,5 @@
+if (live_call()) return live_result;
+
 //setting view values
 var vpos_x = camera_get_view_x(cam);
 var vpos_y = camera_get_view_y(cam);
@@ -40,19 +42,29 @@ yy = y;
 x = xTo;
 y = yTo;
 
-var cloud1spd = -26.5;
-var cloud2spd = -15.35;
 if (layer_exists("Sky")){
-	layer_x("Sky",x/3)
-	layer_y("Sky",y/3)
+	layer_x("Sky",x*skydist)
+	layer_y("Sky",y*skydist)
 }
 if (layer_exists("Cloud")){
-	layer_x("Cloud",(x+(current_time/1000)*cloud1spd)/2.7)
-	layer_y("Cloud",y/2.7+50)
+	layer_x("Cloud",(x+(current_time/1000)*cloud1spd)*cloud1dist)
+	layer_y("Cloud",y*cloud1dist+20)
 }
 if (layer_exists("Cloud2")){
-	layer_x("Cloud2",(x+(current_time/1000)*cloud2spd)/2.85)
-	layer_y("Cloud2",y/2.85+20)
+	layer_x("Cloud2",(x+(current_time/1000)*cloud2spd)*cloud2dist)
+	layer_y("Cloud2",y*cloud2dist+20)
+}
+if (layer_exists("Ground1")){
+	layer_x("Ground1",x*ground1dist)
+	layer_y("Ground1",y*ground1dist-40)
+}
+if (layer_exists("Ground2")){
+	layer_x("Ground2",x*ground2dist)
+	layer_y("Ground2",y*ground2dist)
+}
+if (layer_exists("Ground3")){
+	layer_x("Ground3",x*ground3dist)
+	layer_y("Ground3",y*ground3dist-50)
 }
 
 //show_debug_message(string(x)+"   "+string(y));

@@ -1,7 +1,6 @@
 if (live_call()) return live_result;
 
 click = keyboard_check_direct(1);
-show_debug_message(string(current_time) + ":-:pclick: " + string(prev_click));
 pclick = click and !prev_click;
 rclick = !click and prev_click;
 global.pFrame	   = pclick and 
