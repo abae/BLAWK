@@ -3,13 +3,9 @@
 spd = sqrt(sqr(phy_linear_velocity_x)+sqr(phy_linear_velocity_y));
 
 if (collision_circle(x,y,2,o_wall,true,true)) {
-	instance_create_layer(DISP_WIDTH/2,DISP_HEIGHT/2,"Instances",o_window_check);
-	repeat(100) instance_create_depth(x,y,depth,o_feather);
 	instance_destroy(id);
 }
 if (collision_circle(x,y,29,o_spike,true,true)) {
-	instance_create_layer(DISP_WIDTH/2,DISP_HEIGHT/2,"Instances",o_window_check);
-	repeat(100) instance_create_depth(x,y,depth,o_feather);
 	instance_destroy(id);
 }
 

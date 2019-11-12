@@ -17,6 +17,7 @@ switch (state){
 	case "hold":{
 		display_mouse_lock(mouse_xoff, mouse_yoff, xmax-xmin, ymax-ymin);
 		window_frame_set_rect(display_mouse_get_x()-mouse_xoff+xmin,display_mouse_get_y()-mouse_yoff+ymin,GUIWIDTH,GUIHEIGHT);
+		// window_frame_set_rect(o_bound.x-GUIWIDTH/2,o_bound.y-GUIHEIGHT/2,GUIWIDTH,GUIHEIGHT);
 	}break;
 	case "grav":{
 		vy += grav;
@@ -48,3 +49,5 @@ cam_move(window_frame_get_x(),window_frame_get_y(),1);
 xx = window_frame_get_x();
 yy = window_frame_get_y();
 prev_click = click
+prev_mousex = mouse_x;
+prev_mousey = mouse_y;

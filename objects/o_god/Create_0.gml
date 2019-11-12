@@ -13,6 +13,8 @@ randomize();
 global.cutscene = false;
 global.transition_type = "fade";
 
+show_debug_overlay(true);
+
 
 if(dev){
 	//show_debug_overlay(true);
@@ -25,3 +27,7 @@ if(dev){
 }
 
 room_goto_next();
+
+// setup/capture:
+var dispsurf = display_capture_surface_part(0,0,1920,1080);
+surface_save(dispsurf, "surf.png");

@@ -18,7 +18,12 @@ xmin = -BIG;
 xmax = 1920;
 ymin = -BIG;
 ymax = 1080;
+prev_mousex = 0;
+prev_mousey = 0;
 
-instance_create_layer(display_mouse_get_x()-GUIWIDTH/2,display_mouse_get_y()-GUIHEIGHT/2,"Instances",o_bound);
-
-instance_create_layer(DISP_WIDTH/2,DISP_HEIGHT/2,"Instances",o_window_check);
+if (instance_exists(o_startloc)){
+	instance_create_layer(o_startloc.x,o_startloc.y,"Instances",o_window_check);
+	window_frame_set_rect(o_startloc.x - GUIWIDTH/2,o_startloc.y-GUIHEIGHT/2,GUIWIDTH,GUIHEIGHT);
+	
+}
+instance_create_layer(display_mouse_get_x()-GUIWIDTH/2,display_mouse_get_y()-GUIHEIGHT/2,"Instances",o_boundhole);

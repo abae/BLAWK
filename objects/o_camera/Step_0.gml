@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+//if (live_call()) return live_result;
 
 //setting view values
 var vpos_x = camera_get_view_x(cam);
