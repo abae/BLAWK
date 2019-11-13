@@ -64,7 +64,7 @@ if (layer_exists("Ground2")){
 }
 if (layer_exists("Ground3")){
 	layer_x("Ground3",x*ground3dist)
-	layer_y("Ground3",y*ground3dist-50)
+	layer_y("Ground3",y*ground3dist-30)
 }
 
 //show_debug_message(string(x)+"   "+string(y));

@@ -38,12 +38,12 @@ move_rate = 1;
 //background magic numbers
 cloud1spd = -32.5;
 cloud2spd = -15.35;
-skydist = .8;
-cloud1dist = .65;
-cloud2dist = .72;
-ground1dist = .3;
-ground2dist = .45;
-ground3dist = .6;
+skydist = .9;
+cloud1dist = .8;
+cloud2dist = .87;
+ground1dist = .45;
+ground2dist = .55;
+ground3dist = .75;
 
 //set camera
 camera_set_view_size(cam, zoom * orig_view_w, zoom * orig_view_h);

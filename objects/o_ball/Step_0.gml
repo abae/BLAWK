@@ -15,7 +15,7 @@ else sprite_index = s_chick;
 
 if (spd > 600) {
 	sprite_index = s_chick_hurt;
-	var chanc = tween_linear_ext(spd,600,1100,0,.1)
+	var chanc = tween_linear_ext(spd,600,1100,0,.008);
 	if (chance(chanc)) {
 		var feather = instance_create_depth(x,y,depth,o_feather);
 		with (feather){

@@ -1,5 +1,5 @@
 window_frame_update();
-dev = true;
+dev = false;
 dev_draw = false;
 
 paused = false;
