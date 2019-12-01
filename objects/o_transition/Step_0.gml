@@ -1,8 +1,8 @@
 if (mode != TRANS_MODE.OFF){
 	if (mode == TRANS_MODE.INTRO){
-		percent = smooth_approach(percent,0,.1);
+		percent = approach(percent,0,.01);
 	}else{
-		percent = smooth_approach(percent,1,.1);
+		percent = approach(percent,1,.01);
 	}
 	if (percent == 1 or percent == 0){
 		switch(mode){

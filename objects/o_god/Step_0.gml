@@ -35,7 +35,7 @@ if (paused){
 		paused = !paused
 		if (sprite_exists(screenshot)) sprite_delete(screenshot);
         instance_activate_all();
-		transition("slide",TRANS_MODE.RRESTART);
+		transition("shrink",TRANS_MODE.RRESTART);
 	}
 	if(keyboard_check_pressed(ord("X"))){
 		paused = !paused

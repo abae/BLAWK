@@ -13,3 +13,11 @@ mode = TRANS_MODE.INTRO;
 percent = 1;
 target = room;
 
+
+window_frame_set_rect(-100,-100,10,10);
+window_set = false;
+if (instance_exists(o_startloc)){
+	window_x = o_startloc.x-GUIWIDTH/2;
+	window_y = o_startloc.y-GUIHEIGHT/2;
+}
+

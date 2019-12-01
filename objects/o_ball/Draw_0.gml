@@ -1,5 +1,5 @@
 if (live_call()) return live_result;
-
+var chirp = audio_is_playing(sfx_chick_chirp);
 if (spd > 200 and !recover){
 	if(position_meeting(x+40,y,o_wall) or position_meeting(x+40,y,o_bound)){
 		var skew_amt = abs(phy_linear_velocity_x - p_vx)/15000;
@@ -79,3 +79,4 @@ if (spd > 200 and !recover){
 	draw_self();
 	recover = false;
 }
+if (!chirp and audio_is_playing(sfx_chick_chirp) and exercise and timer < 0) steps++;

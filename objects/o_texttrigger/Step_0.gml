@@ -1,0 +1,1 @@
+if (reveal) alpha = approach(alpha,1,.02);

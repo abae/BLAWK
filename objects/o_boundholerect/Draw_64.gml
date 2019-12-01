@@ -1,0 +1,13 @@
+var surf = surface_create(1920,1080);
+surface_set_target(surf);
+draw_sprite(dispsurf,0,-window_frame_get_x(),-window_frame_get_y());
+//gpu_set_blendmode(bm_subtract);
+draw_sprite(s_holerect,0,0,0);
+//gpu_set_blendmode(bm_normal);
+//draw_clear_alpha( c_black, 1 );
+surface_reset_target();
+draw_sprite(s_holerectinv,0,0,0);
+gpu_set_blendmode(bm_add);
+draw_surface(surf,0,0);
+gpu_set_blendmode(bm_normal);
+surface_free(surf);

@@ -1,0 +1,1 @@
+text = "Thank you\nfor playing!~"

@@ -13,7 +13,7 @@ randomize();
 global.cutscene = false;
 global.transition_type = "fade";
 
-show_debug_overlay(true);
+//show_debug_overlay(true);
 
 
 if(dev){

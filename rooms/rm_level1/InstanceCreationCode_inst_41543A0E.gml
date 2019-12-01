@@ -1,0 +1,1 @@
+text = "This moment will pass."

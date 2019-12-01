@@ -1,0 +1,1 @@
+text = "Oh. I'm stuck\nhere again...\n"

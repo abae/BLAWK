@@ -5,7 +5,8 @@
     "name": "3bba722b-ae5d-448c-b54b-c0e5a63d4e14",
     "children": [
         "16d5dcba-e3d2-4745-986a-2590bd257fad",
-        "a1106691-7b65-4b41-b4f5-c80f980160dc"
+        "a1106691-7b65-4b41-b4f5-c80f980160dc",
+        "36dbd23b-f5e7-4387-b48e-64251f73b9c8"
     ],
     "filterType": "GMObject",
     "folderName": "interface",

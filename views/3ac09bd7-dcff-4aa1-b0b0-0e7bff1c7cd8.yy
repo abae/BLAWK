@@ -5,7 +5,8 @@
     "name": "3ac09bd7-dcff-4aa1-b0b0-0e7bff1c7cd8",
     "children": [
         "674349d3-8078-474d-bb04-ad5e57537524",
-        "e1dcdc86-f384-4179-86a4-3b537f095ab1"
+        "e1dcdc86-f384-4179-86a4-3b537f095ab1",
+        "975d3807-7e0e-4b66-a5d3-e92de59fde4a"
     ],
     "filterType": "GMSprite",
     "folderName": "control",

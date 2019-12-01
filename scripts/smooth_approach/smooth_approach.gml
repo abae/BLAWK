@@ -8,7 +8,7 @@
  * view_yview = smooth_approach(view_yview, y-view_hview/2, 0.1);
  */
 var diff = argument1-argument0;
-if abs(diff) < 0.5{
+if abs(diff) < 0.001{
    return argument1;
 }else {
    return argument0+(diff*argument2);
