@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+//if (live_call()) return live_result;
 
 click = keyboard_check_direct(1);
 pclick = click and !prev_click;
