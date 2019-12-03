@@ -32,7 +32,7 @@ if (o_transition.mode == TRANS_MODE.OFF){
 			window_frame_set_rect(window_get_x()+vx,window_get_y()+vy,GUIWIDTH,GUIHEIGHT);
 		}break;
 		case "nothing":{
-			window_frame_set_rect(window_get_x(),window_get_y(),GUIWIDTH,GUIHEIGHT);
+			window_frame_set_rect(window_get_x(),window_get_y(),307-2,240-32);
 		}
 	}
 }
